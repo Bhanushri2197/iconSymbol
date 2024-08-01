@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="iconBlockContainer">
+        <div class="container">
+            <div class="row">
+                <div class="iconsListBlock">
+                    <h1 class="text-center heading">Smilely Icons</h1>
+                    <p class="desc text-center">Click any icon you want and paste it  anywhere you like it</p>
+                    <div class="iconList text-center col-lg-12">
+                        <button id="smileysBtn" type="button" class="btn btnPrimary active" onclick="fetchData('smileys-and-people', this)">Smileys & People</button>
+                        <button id="animalsBtn" type="button" class="btn btnPrimary" onclick="fetchData('animals-and-nature', this)">Animals & Nature</button>
+                        <button id="foodBtn" type="button" class="btn btnPrimary" onclick="fetchData('food-and-drink', this)">Food & Drink</button>
+                        <button id="travelBtn" type="button" class="btn btnPrimary" onclick="fetchData('travel-and-places', this)">Travel & Places</button>
+                        <button id="activitiesBtn" type="button" class="btn btnPrimary" onclick="fetchData('activities', this)">Activities</button>
+                        <button id="objectsBtn" type="button" class="btn btnPrimary" onclick="fetchData('objects', this)">Objects</button>
+                        <button id="symbolsBtn" type="button" class="btn btnPrimary" onclick="fetchData('symbols', this)">Symbols</button>
+                        <button id="flagsBtn" type="button" class="btn btnPrimary" onclick="fetchData('flags', this)">Flags</button>
+                  </div>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center" id="displayIconsList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

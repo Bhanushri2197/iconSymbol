@@ -1,0 +1,40 @@
+.iconBlockContainer{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(91deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    padding: 70px 0;
+    min-height:100vh ;
+}
+.heading{
+    color: #fff;
+}
+.desc{
+    color: #fff;
+    margin: 40px 0;
+}
+#displayIconsList{
+    margin-top: 50px;
+}
+.btnPrimary{
+    border: 1px solid #fff;
+    color: #fff;
+    background: #ffffff45;
+    box-shadow: 1px 1px 4px #e0e0e0;
+    margin: 7px 4px;
+}
+.btnPrimary:hover,.btnPrimary.active{
+    border: 1px solid #fff;
+    color: #fff;
+    background: #ffffff8f;
+    box-shadow: 1px 1px 7px #e0e0e0;
+}
+.smilelyBlock{
+    width: 60px;
+    height: 60px;
+    background: #ededed;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.smilelyImg{
+    font-size: 40px;
+}
